@@ -13,6 +13,7 @@ public class PillBox {
 
     /**To populate the array with a word and print something on console
      * @param args the command line arguments
+     * I changed the code for testing the push 
      */
     public static void main(String[] args) {
         char[] PillBox = new char[7];
