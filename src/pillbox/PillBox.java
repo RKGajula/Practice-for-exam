@@ -18,14 +18,14 @@ public class PillBox {
      * 
      */
     public static void main(String[] args) {
-        char[] PillBox = new char[7];
-        PillBox[0] = 's';
-        PillBox[1] = 't';
-        PillBox[2] = 'u';
-        PillBox[3] = 'd';
-        PillBox[4] = 'e';
-        PillBox[5] = 'n';
-        PillBox[6] = 't';
+        String[] PillBox = new String[6];
+        PillBox[0] = "R";
+        PillBox[1] = "A";
+        PillBox[2] = "M";
+        PillBox[3] = "Y";
+        PillBox[4] = "A";
+        PillBox[5]="G";
+        
         
        // PillBox c = new PillBox();
         
@@ -33,7 +33,7 @@ public class PillBox {
    for (int i=0;i<PillBox.length;i++){ 
            System.out.println(PillBox[i]);
    }
-   for(int i=0;i<PillBox.length-1;i--)
+   for(int i=PillBox.length-1;i>=0;i--)
    {
        System.out.println(PillBox[i]);
    }
